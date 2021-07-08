@@ -1,7 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "portafolio",
+    title: "Gerson Jean Pierre",
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -25,6 +24,14 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Droid Sans', 'Fredoka One']
+        }
+      }
     },
   ],
 };
