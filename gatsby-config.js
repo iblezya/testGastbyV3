@@ -29,7 +29,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Droid Sans', 'Fredoka One']
+          families: ['Droid Sans', 'Fredoka One','Raleway','Nunito','IBM Plex Sans']
         }
       }
     },
