@@ -1,8 +1,8 @@
-export default {
+const Theme = {
   fonts:{
-    main: "",
-    code:"",
-    blog:"",
+    main: "IBM Plex Sans",
+    code:"IBM Plex Mono",
+    blog:"Nunito",
   },
   colors: {
     main1: "#414042",
@@ -53,3 +53,4 @@ export default {
     tablet: "only screen and (max-width: 65rem)",
   },
 }
+export default Theme
