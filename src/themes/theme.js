@@ -1,8 +1,8 @@
 const Theme = {
-  fonts:{
+  fonts: {
     main: "IBM Plex Sans",
-    code:"IBM Plex Mono",
-    blog:"Nunito",
+    code: "IBM Plex Mono",
+    blog: "Nunito",
   },
   colors: {
     main1: "#414042",
@@ -49,8 +49,8 @@ const Theme = {
       "only screen and (min-width:100em) and (max-width: 119.9375em) ", //Laptop and desktop Mid Low (1600px 1919px)
     desktopMid:
       "only screen and (min-width:120em) and (max-width: 159.9375em) ", //Laptop and desktop Mid (1920px 2559px)
-    mobile: "only screen and (max-width: 50rem)",
-    tablet: "only screen and (max-width: 65rem)",
+    s: "only screen and (max-width: 50rem)",
+    m: "only screen and (max-width: 65rem)",
   },
-}
-export default Theme
+};
+export default Theme;

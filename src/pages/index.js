@@ -4,7 +4,8 @@ import { Container } from "../components/Container";
 const IndexPage = () => {
   return (
     <Container>
-      <h1>Hello</h1>
+      <div>HEllo</div>
+      <div></div>
     </Container>
   );
 };
